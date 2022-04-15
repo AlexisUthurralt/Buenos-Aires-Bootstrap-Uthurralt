@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ciudad de Buenos Aires</title>
+  <link rel="shortcut icon" href="\Entrega Bootstrap\favicon (3).ico" type="image/x-icon">
+<link rel="icon" href="..\Entrega Bootstrap\favicon (3).ico" type="image/x-icon">
 
   <!--Link de CSS de Bootstrap-->
   <link rel="stylesheet"type="text/css"href="css/bootstrap.css">
@@ -16,8 +18,8 @@
     <img src="..\Entrega Bootstrap\Imagenes\imagen-caba.jpg" class="img-fluid" alt="Obelisco-Ciudad de Buenos Aires">
 
     <!--Barra Nav-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid"> <!------Logo--------->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+  <div class="container-fluid estiloNav"> <!------Logo--------->
     <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-info-square" viewBox="0 0 16 16">
   <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
   <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
@@ -34,7 +36,7 @@
         <li class="nav-item">
           <a class="nav-link active estiloNav" aria-current="page" href="..\Entrega Bootstrap\Poblacion.html">Población</a> <!--Boton Población-->
         <li class="nav-item">
-          <a class="nav-link active estiloNav" aria-current="page" href="..\Entrega Bootstrap\Poblacion.html">Ubicación</a> <!--Boton Ubicación-->
+          <a class="nav-link active estiloNav" aria-current="page" href="..\Entrega Bootstrap\ubicacion.html">Ubicación</a> <!--Boton Ubicación-->
         </li>
         <li class="nav-item">
           <a class="nav-link active estiloNav" aria-current="page" href="..\Entrega Bootstrap\lugares-de-interes.html">Lugares de Interés</a> <!--Boton Lugares-->
@@ -51,19 +53,32 @@
   </header>
 
   <!----------------------------------------------------------
-    --------Agregar Contenido a cada Pagina---------------->
+    -------- Contenido  Pagina------------------------------->
 
-    <!--Footer-->
-    <div class="container">
-  <footer class="py-3 my-4">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+<div class="container px-4">
+  <div class="row gx-5">
+    <div class="col">
+     <div class="p-3 border bg-light"><h2>Historia</h2><br>
+        <p>Debido a la gran centralización que existe en la Argentina, muchos sucesos relativos a la historia de la ciudad de Buenos Aires coinciden con la historia del país. Por esta razón, aquí se trata principalmente el desarrollo institucional de la ciudad, desde su fundación hasta la sanción de la Constitución de la ciudad de Buenos Aires, incluyendo su nombramiento como capital del Virreinato del Río de la Plata y su federalización.
+
+La ciudad de Buenos Aires tuvo dos fundaciones. La primera en 1536 por Pedro de Mendoza (destruida en 1541 por los propios habitantes a raíz de las constantes amenazas de los nativos), y la segunda en 1580 por Juan de Garay. En ambas ocasiones perteneció al Virreinato del Perú del Imperio Español. En 1776 fue designada por el Rey de España, capital del recién creado Virreinato del Río de la Plata. Durante la primera de las invasiones inglesas, ocurrida en 1806, la ciudad fue ocupada por fuerzas armadas inglesas y quedó por unos meses bajo la bandera de Inglaterra. En 1810, los pobladores de la ciudad realizaron la Revolución de Mayo, que expulsó al virrey, estableció una junta de autogobierno y dio inicio a la guerra por la independencia de Argentina. Tras la Reforma de la Constitución Argentina de 1994 la ciudad pudo contar con su propia Constitución y con un gobierno autónomo de elección directa.</p>
+</div>
+    </div>
+    </div>
+  </div>
+</div>
+
+        <!--Footer-->
+         <div class="container bg-primary">
+        <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
       <li class="nav-item"><a href="..\Entrega Bootstrap\historia.html" class="nav-link px-2 text-muted">Historia</a></li>
       <li class="nav-item"><a href="..\Entrega Bootstrap\Poblacion.html" class="nav-link px-2 text-muted">Población</a></li>
       <li class="nav-item"><a href="..\Entrega Bootstrap\Poblacion.html" class="nav-link px-2 text-muted">Ubicación</a></li>
       <li class="nav-item"><a href="..\Entrega Bootstrap\lugares-de-interes.html" class="nav-link px-2 text-muted">Lugares de Interés</a></li>
       <li class="nav-item"><a href="..\Entrega Bootstrap\contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
     </ul>
-    <p class="text-center text-muted">&copy; Desarrollado por Alexis Uthurralt</p>
+    <p class="text-center text-muted" >&copy; Desarrollado por Alexis Uthurralt</p>
   </footer>
 
 

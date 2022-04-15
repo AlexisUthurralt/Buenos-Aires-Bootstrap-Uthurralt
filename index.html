@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+  <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Ciudad de Buenos Aires</title>
+  <link rel="shortcut icon" href="\Entrega Bootstrap\favicon (3).ico" type="image/x-icon">
+<link rel="icon" href="..\Entrega Bootstrap\favicon (3).ico" type="image/x-icon">
 
 	<!--Link de CSS de Bootstrap-->
 	<link rel="stylesheet"type="text/css"href="css/bootstrap.css">
 	<!--Link de Ajustes Generales con CSS Propio-->
 	<link rel="stylesheet" type="text/css" href="..\Entrega Bootstrap\ajustes-generales.css">"
+
+
 </head>
 <body> <!--Contenedor Padre-->
 	<header> <!--Contenedor Hijo del header-->
@@ -16,7 +20,7 @@
 		<img src="..\Entrega Bootstrap\Imagenes\imagen-caba.jpg" class="img-fluid" alt="Obelisco-Ciudad de Buenos Aires">
 
 		<!--Barra Nav-->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid"> <!------Logo--------->
     <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-info-square" viewBox="0 0 16 16">
   <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
@@ -34,7 +38,7 @@
         <li class="nav-item">
           <a class="nav-link active estiloNav" aria-current="page" href="..\Entrega Bootstrap\Poblacion.html">Población</a> <!--Boton Población-->
         <li class="nav-item">
-          <a class="nav-link active estiloNav" aria-current="page" href="..\Entrega Bootstrap\Poblacion.html">Ubicación</a> <!--Boton Ubicación-->
+          <a class="nav-link active estiloNav" aria-current="page" href="..\Entrega Bootstrap\ubicacion.html">Ubicación</a> <!--Boton Ubicación-->
         </li>
         <li class="nav-item">
           <a class="nav-link active estiloNav" aria-current="page" href="..\Entrega Bootstrap\lugares-de-interes.html">Lugares de Interés</a> <!--Boton Lugares-->
@@ -51,10 +55,25 @@
 	</header>
 
 	<!----------------------------------------------------------
-		--------Agregar Contenido a cada Pagina---------------->
+		-------- Contenido  Pagina------------------------------->
 
+<div class="container px-4">
+  <div class="row gx-5">
+    <div class="col">
+     <div class="p-3 border bg-light"><h2>Breve Reseña</h2><br>
+      
+  <p>Buenos Aires, en el texto de la Constitución: Ciudad de Buenos Aires o Ciudad Autónoma de Buenos Aires (CABA),también llamada Capital Federal, por ser la sede del gobierno nacional, es la capital y ciudad más poblada de la República Argentina. Esta metrópolis es una ciudad autónoma que constituye uno de los 24 distritos, o «jurisdicciones de primer orden»12 que conforman el país. Tiene sus propios poderes ejecutivo, legislativo y judicial. Está situada en la región centro-este del país, sobre la orilla sur del Río de la Plata, en la región pampeana. La Ciudad de Buenos Aires fue cedida en 1880 por la Provincia de Buenos Aires para que fuera la capital federal del país; a partir de 2020 es considerada «capital principal», junto a 24 capitales alternas. En virtud de la reforma constitucional de 1994 goza de un régimen de autonomía.
+
+Su tejido urbano se asemeja a un abanico que limita al sur, oeste y norte con la lindante provincia de Buenos Aires y al este con el Río de la Plata. Oficialmente la ciudad se encuentra dividida en 15 comunas que agrupan a 48 barrios. Desde 1880 hasta el presente se la llama también Capital Federal,14​15​16​ aunque desde 1996 no figura oficialmente con ese nombre ni en su Constitución propia17​ ni en la Constitución Nacional.18​</p>
+
+
+</div>
+    </div>
+    </div>
+  </div>
+</div>
 		<!--Footer-->
-		<div class="container">
+		<div class="container bg-primary">
   <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
       <li class="nav-item"><a href="..\Entrega Bootstrap\historia.html" class="nav-link px-2 text-muted">Historia</a></li>
