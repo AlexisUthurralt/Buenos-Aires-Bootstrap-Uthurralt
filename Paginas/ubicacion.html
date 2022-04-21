@@ -1,59 +1,55 @@
 <!DOCTYPE html>
 <html>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ciudad de Buenos Aires</title>
-  <link rel="shortcut icon" href="\Entrega Bootstrap\favicon (3).ico" type="image/x-icon">
-  <link rel="icon" href="..\Entrega Bootstrap\favicon (3).ico" type="image/x-icon">   <!--Link de CSS de Bootstrap-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <!--Link de Ajustes Generales con CSS Propio-->
-  <link rel="stylesheet" type="text/css" href="..\Entrega Bootstrap\proyectoCoder.css">
+    <link rel="icon" type="text/css" href="..\favicon (3).ico">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">  <!--Link de CSS de Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+       <!--Link de Ajustes Generales con CSS Propio-->
+    <link rel="stylesheet" type="text/css" href="../proyectoCoder.css">
   </head>
   <body> <!--Contenedor Padre-->
     <header> <!--Contenedor Hijo del header-->
-           <!--Imagen del header-->
+              <!--Imagen del header-->
       <img src="../Imagenes\imagen-caba.jpg" class="img-fluid" alt="Obelisco-Ciudad de Buenos Aires">
-               <!--Barra Nav-->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div class="container-fluid"> <!------Logo--------->
+        <!--Barra Nav-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary estiloNav">
+    <div class="container-fluid "> <!------Logo--------->
         <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-info-square" viewBox="0 0 16 16">
-      <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-                <!------------Fin Logo---------------------->
+        <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/><!------------Fin Logo----------------->
         </svg></a> <!--Barra Navegación-->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a  class="nav-link active estiloNav" aria-current="page" href="../Entrega Bootstrap\historia.html">Historia</a> <!--Boton Historia-->
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active estiloNav" aria-current="page" href="..\Entrega Bootstrap\Poblacion.html">Población</a> <!--Boton Población-->
-        <li class="nav-item">
-          <a class="nav-link active estiloNav" aria-current="page" href="..\Entrega Bootstrap\ubicacion.html">Ubicación</a> <!--Boton Ubicación-->
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active estiloNav" aria-current="page" href="..\Entrega Bootstrap\lugares-de-interes.html">Lugares de Interés</a> <!--Boton Lugares-->
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active estiloNav" aria-current="page" href="..\Entrega Bootstrap\contacto.html">Contacto</a> <!--Boton Contacto-->
-        </li>
- 
-    </div>
-  </div>
-</nav>
-
-<!--Fin Barra Nav-->
-  </header>--------------------------------------------------------
-    -------- Contenido  Pagina------------------------------->
-      <div class="container px-4">
-        <div class="row gx-5">
-          <div class="col">
-            <div class="p-3 border bg-light"><h2>Ubicación</h2><br><p>La ciudad de Buenos Aires se encuentra en Sudamérica, a 34° 36' de latitud sur y 58° 26' de longitud oeste, en la margen del Río de la Plata.
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a  class="nav-link active estiloNav" aria-current="page" href="../Paginas/historia.html">Historia</a> <!--Boton Historia-->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active estiloNav" aria-current="page" href="../Paginas/Poblacion.html">Población</a> <!--Boton Población-->
+          <li class="nav-item">
+            <a class="nav-link active estiloNav" aria-current="page" href="../Paginas/ubicacion.html">Ubicación</a> <!--Boton Ubicación-->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active estiloNav" aria-current="page" href="../Paginas/lugares-de-interes.html">Lugares de Interés</a> <!--Boton Lugares-->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active estiloNav" aria-current="page" href="../Paginas/contacto.html">Contacto</a> <!--Boton Contacto-->
+          </li>
+        </div>
+      </div>
+    </nav>   <!--Fin Barra Nav-->
+    </header><!-------- Contenido  Pagina----------->
+    <div class="container px-4">
+      <div class="row gx-5">
+        <div class="col">
+          <div class="p-3 border bg-light"><h2>Ubicación</h2><br>
+            <p>La ciudad de Buenos Aires se encuentra en Sudamérica, a 34° 36' de latitud sur y 58° 26' de longitud oeste, en la margen del Río de la Plata.
             Frente a sus costas se encuentra, ya en Uruguay, Colonia del Sacramento, y más lejos, Montevideo, la capital de dicho país, a 220 km (25 min en avión o 2 h 30 en barco). A 1065 km (1 h 50 de avión) se encuentra Asunción, la capital del Paraguay; a 1139 km (2 h de avión), Santiago, la capital de Chile; y un poco más lejos, a 1719 km (3 h de avión), se encuentra São Paulo (Brasil), la otra gran metrópolis de América del Sur.</p><br>
-            </div>
           </div>
         </div>
       </div>
@@ -76,21 +72,21 @@
             Existe un pequeño tramo de no más de 2 km, comprendido entre la Avenida Intendente Cantilo y el Río de la Plata, donde el límite con la Provincia de Buenos Aires en parte es la línea imaginaria de la prolongación de la Av. General Paz42​ y otro tramo el arroyo Raggio; este sector corresponde al límite entre el Parque de los Niños y el Paseo de la Costa. Esto se debe a que la autopista llamada Avenida General Paz no finaliza en la costa del río sino en la Av. Intendente Cantilo. Esta avenida enlaza de manera rápida la ciudad con el resto del Gran Buenos Aires, una franja de alta concentración de habitantes y fuerte actividad comercial e industrial.
             Adicionalmente, existe en la Comuna 4 un meandro del Riachuelo, denominado Meandro de Brian, en donde el límite con la Provincia de Buenos Aires pasa a ser la proyección de la rectificación pendiente del cauce, de modo que en la zona donde el río bordea al meandro, ambas orillas (incluyendo al meandro propiamente dicho) forman parte de la Ciudad de Buenos Aires.43​44​
             Excepto su límite oriental con el río de La Plata, todos los otros límites indicados de la ciudad separan su jurisdicción de las correspondientes a la provincia de Buenos Aires.</p>
-            </div>
           </div>
         </div>
-      </div>          <!--Footer-->
-      <div class="container bg-primary">
-       <footer class="py-3 my-4">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="../Entrega Bootstrap\historia.html" class="nav-link px-2 text-muted">Historia</a></li>
-      <li class="nav-item"><a href="..\Entrega Bootstrap\Poblacion.html" class="nav-link px-2 text-muted">Población</a></li>
-      <li class="nav-item"><a href="..\Entrega Bootstrap\ubicacion.html" class="nav-link px-2 text-muted">Ubicación</a></li>
-      <li class="nav-item"><a href="..\Entrega Bootstrap\lugares-de-interes.html" class="nav-link px-2 text-muted">Lugares de Interés</a></li>  
-      <li class="nav-item"><a href="..\Entrega Bootstrap\contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
-    </ul>
-    <p class="text-center text-muted">&copy; Desarrollado por Alexis Uthurralt</p>
-  </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      </div>
+    </div>          <!--Footer-->
+    <div class="container bg-primary">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="../Paginas\historia.html" class="nav-link px-2 text-muted">Historia</a></li>
+          <li class="nav-item"><a href="../Paginas\Poblacion.html" class="nav-link px-2 text-muted">Población</a></li>
+          <li class="nav-item"><a href="../Paginas\ubicacion.html" class="nav-link px-2 text-muted">Ubicación</a></li>
+          <li class="nav-item"><a href="../Paginas\lugares-de-interes.html" class="nav-link px-2 text-muted">Lugares de Interés</a></li>  
+          <li class="nav-item"><a href="../Paginas\contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+        </ul>
+        <p class="text-center text-muted">&copy; Desarrollado por Alexis Uthurralt</p>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
